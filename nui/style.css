@@ -1,0 +1,33 @@
+#app {
+  background: #fff;
+  position: absolute;
+  right: -1px;
+}
+.main{
+    width: 450px;
+    overflow: auto;
+}
+
+
+body {
+    font-family: "Luckiest Guy", cursive;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+  }
+  
+  
+  .inside::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .inside {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+.inside{
+    height: 450px;
+    overflow: scroll;
+}
